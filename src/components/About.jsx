@@ -18,12 +18,13 @@ const About = () => {
                     <p>Hi. I'm Alex, welcome, please take a look around!</p>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Qui aspernatur ea aliquam, distinctio culpa et, minima 
-                        maiores sapiente magni mollitia omnis repellendus! Dolore 
-                        laudantium reprehenderit odit, perferendis deleniti sint velit 
-                        facere molestiae fugit vitae aspernatur vero iusto, laborum, 
-                        cumque obcaecati!</p>
+                    <p> Self taught web developer, but also an Economist,<br/> 
+                        currently based in Cali, Colombia.<br/>
+
+                        I really enjoy sports, outdoor activities and get 
+                        in touch with interesting people who likes to share their ideas in 
+                        different areas of knowledge. 
+                    </p>
                 </div>
             </div>
         </div>        

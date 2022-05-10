@@ -1,7 +1,7 @@
 import React from 'react'
 import Vet from '../assets/vetList.jpg'
-import SevenSeas from '../assets/sevenSeas.jpg'
-import Portfolio from '../assets/portfolioAlex.jpg'
+import Crypto from '../assets/crypto.png'
+import Tracker from '../assets/tracker.png'
 
 const Work = () => {
     return (
@@ -34,18 +34,18 @@ const Work = () => {
                     </div>
                     <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
                         <div>
-                            <img className='w-full mx-auto rounded-md' src={SevenSeas} alt="HTML Icon" />
+                            <img className='w-full mx-auto rounded-md' src={Tracker} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100'>
-                            <h1 className='my-4 font-bold text-slate-100'>Beautiful landing page - Vanilla Js</h1>
+                            <h1 className='my-4 font-bold text-slate-100'>Control Expenses - React Js</h1>
                             <div className='justify-between'>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/Seven-seas" target='_blank'>
+                                    <a href="https://github.com/alejandrogch7/tracker" target='_blank'>
                                         Code
                                     </a>
                                 </button>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://alejandrogch7.github.io/Seven-seas/" target='_blank'>
+                                    <a href="https://animated-babka-cbf09d.netlify.app/" target='_blank'>
                                         Demo
                                     </a>
                                 </button>
@@ -54,15 +54,21 @@ const Work = () => {
                     </div>
                     <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
                         <div>
-                            <img className='w-full mx-auto rounded-md' src={Portfolio} alt="HTML Icon" />
+                            <img className='w-full mx-auto rounded-md' src={Crypto} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100'>
-                            <h1 className='my-4 font-bold text-slate-100'>Personal Portfolio - React Js</h1>
+                            <h1 className='my-4 font-bold text-slate-100'>Track your cryptos - React Js </h1>
                             <div className='justify-between'>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    Code
+                                    <a href="https://github.com/alejandrogch7/crypto" target='_blank'>
+                                        Code
+                                    </a>
                                 </button>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>Demo</button>
+                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
+                                    <a href="https://relaxed-starburst-21ef98.netlify.app/" target='_blank'>
+                                        Demo
+                                    </a>
+                                </button>
                             </div>
                         </div>
                     </div>

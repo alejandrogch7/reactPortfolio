@@ -12,7 +12,7 @@ const Skills = () => {
     <div name='skills' className='bg-slate-200 text-slate-200 h-screen'>
         <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full p-4'>
             <div className='text-[#14274E]'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>Skills</p>
                 <p className='py-6'>Technologies that I've worked with</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
